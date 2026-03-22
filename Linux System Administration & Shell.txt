@@ -1,7 +1,6 @@
 Linux System Administration & Shell Scripting Research
 This repository serves as a comprehensive technical guide and resource hub for Linux User Management, Package Administration, and Shell Logic. Developed as part of a research quiz presentation, the project explores the foundational pillars of Linux environments, focusing on the critical distinctions between standard users and the Root/SuperUser through sudo implementation.
 
-Key areas covered include:
 
 User Lifecycle Management: Understanding UID 0, access control, and account permissions.
 
