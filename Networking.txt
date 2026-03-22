@@ -1,0 +1,46 @@
+class A 1-126
+class b 128-1911
+class c 192-223
+class d 224-239
+class e 240-255
+ 
+OSI ( open system inter connection )
+The OSI (Open Systems Interconnection) Model is a 7-layer conceptual framework used to standardize how different computer systems communicate over a network.
+
+it has 7 layers , There are 
+
+7. Application :-This is the only layer that directly interacts with the user. It provides network services to the end-user's software (like a web browser or email client).
+Key Function: Identifying communication partners and determining resource availability.
+Data Unit: Data.
+Protocols: HTTP, DNS, SMTP, POP3.
+
+6. presentation :- Often called the "Syntax Layer," this acts as a translator. It ensures that the data is in a format the application layer can understand.
+Key Function: Data encryption/decryption, compression, and character encoding (like ASCII or UTF-8).
+Data Unit: Data.
+Protocols: SSL/TLS, JPEG, MPEG.
+
+5. Session :- The Session Layer manages the mechanics of the conversation. It sets up, coordinates, and terminates exchanges between applications at each end.
+Key Function: Session checkpointing and recovery (allowing a transfer to resume if interrupted).
+Data Unit: Data.
+Protocols: NetBIOS, SAP.
+
+4. Transport :- This layer ensures the end-to-end delivery of the entire message. It manages error recovery and flow control to ensure data doesn't overwhelm the receiver.
+Key Function: Segmentation, acknowledgment of data receipt, and port numbering.
+Data Unit: Segments (TCP) or Datagrams (UDP).
+Protocols: TCP, UDP.
+
+3. Network :- The Network Layer is responsible for packet forwarding, including routing through intermediate routers. It handles logical addressing so data can find a path to a different network.
+
+Key Function: Routing and IP (Internet Protocol) addressing.
+Data Unit: Packets.
+Hardware: Routers, Layer 3 Switches.
+
+2. Data link :- This layer provides node-to-node data transfer—a link between two directly connected nodes. It packages bits into "frames" and handles physical addressing.
+Key Function: Error detection (via CRC) and MAC (Media Access Control) addressing.
+Data Unit: Frames.
+Hardware: Switches, Bridges, Network Interface Cards (NICs).
+
+1. Physical :- The Physical Layer is responsible for the actual electrical, optical, or radio transmission of raw unstructured bits (0s and 1s) over a physical medium.
+Key Function: Defines connector types, cable voltages, and radio frequencies.
+Data Unit: Bits.
+Hardware: Hubs, Repeaters, Cables (CAT6, Fiber), Wi-Fi antennas.
