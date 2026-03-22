@@ -1,0 +1,2 @@
+Penetration testing :- finding a hole for the purpose of getting in
+Red teaming :- the process of getting in and not get detecting 
